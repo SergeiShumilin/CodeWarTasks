@@ -1,0 +1,7 @@
+def reversing(text):
+    res = ''
+    for i in text.split(" "):
+        res = res + i[::-1] + " "
+    return res.rstrip()
+
+print(reversing("This is an example!"))
